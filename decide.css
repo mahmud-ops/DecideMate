@@ -1,0 +1,133 @@
+:root{
+    --primary-color: #bdffbd;
+    --secondary-color: #6a0dad;
+    --body: #b6ff76;
+}
+body{
+    background-color: var(--body);
+}
+
+/* navigation menu  */
+.navBar{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    border-radius: 30px;
+    border: solid black 1px;
+    z-index: 100;
+    position: sticky;
+    top: 0px;
+}
+#logoContainer{
+    display: flex;
+}
+#logo{
+    width: 120px;
+}
+#links{
+    display: flex;
+    justify-content: end;
+    margin: 25px;
+}
+a{
+    height: 50px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    transition: 0.3s;
+    box-sizing: border-box;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+a:hover {
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+/* hero section  */
+.hero{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    font-size: 1.2rem;
+    text-align-last: center;
+    padding: 2px 40px;
+}
+
+/* video */
+#videoContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#videoContainer video{
+    border: solid  30px;
+    border-radius: 20px;
+    transition: 0.5s;
+    filter: drop-shadow(0px 10px 10px #00000069);
+}
+#videoContainer video:hover{
+    filter: drop-shadow(0px 10px 10px #000000);
+}
+
+/* footer  */
+footer{
+    background-color: black;
+    padding: 20px;
+    color: var(--primary-color);
+}
+footer .footer-links{
+    display: flex;
+    justify-content: center;  
+}
+footer li{
+    list-style-type: none;
+    width: 200px;
+}
+footer a{
+    color: white;
+}
+
+/* Meal options  */
+#MealOps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+#MealOps button{
+    font-weight: bold;
+    text-shadow: 
+    -2px -2px 0 black,  
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;    
+    color: white;
+    font-size: 2rem;
+    width: 300px;
+    aspect-ratio: 4/3;
+    margin: 10px;
+    border-radius: 10px;
+    border: dotted 1px;
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#MealOps button:hover{
+    filter: brightness(0.7);
+}
+#breakfast button{
+    background-image: url(Images/BreakFast.jpg);
+}
+#lunch button{
+    background-image: url(Images/Lunch.jpg);
+}
+#dinner button{
+    background-image: url(Images/Dinner.jpg);
+}
+
+.deciding
