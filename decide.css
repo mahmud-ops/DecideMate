@@ -130,4 +130,8 @@ footer a{
     background-image: url(Images/Dinner.jpg);
 }
 
-.deciding
+.decision{
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+}
