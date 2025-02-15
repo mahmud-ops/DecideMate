@@ -1,0 +1,22 @@
+.navBar #links{
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-direction: column;
+}
+.navBar{
+    justify-content: center;
+    overflow: hidden;
+    justify-content: space-between;
+    height: 100px;
+    transition: 0.5s height;
+}
+.navBar:hover{
+    height: 350px;
+}
+#links a{
+    margin-top: 20px;
+    background-color: greenyellow;
+    width: 300px;
+}

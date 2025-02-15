@@ -82,7 +82,8 @@ footer{
 }
 footer .footer-links{
     display: flex;
-    justify-content: center;  
+    justify-content: center;
+    flex-direction: column;  
 }
 footer li{
     list-style-type: none;
